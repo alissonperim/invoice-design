@@ -1,0 +1,16 @@
+.btn{
+  background-color: transparent;
+  letter-spacing: 3px;
+  padding: 6px 16px;
+  border: 2px solid rgb(255, 70, 70);
+  border-radius: 50px;
+  font-size: 1rem;
+  color: rgb(255, 70, 70);
+  cursor: pointer;  
+  margin: auto;
+  margin-top: 1.5rem;
+}
+
+.btn:active{
+  transform: scale(0.98);
+}

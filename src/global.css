@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --font-primary: 'DM Sans', sans-serif;
+  --font-secondary: 'Zilla Slab', serif;
+}
+
+body{
+  background-color: rgb(212, 219, 206);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

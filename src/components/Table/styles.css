@@ -1,0 +1,40 @@
+.tableHead{
+  text-align: center;
+  font-size: 0.8rem;
+  color: rgb(165, 165, 165);
+  font-family: var(--font-secondary);
+}
+
+.tableHead th:nth-child(1){
+  text-align: left;
+}
+
+.tableHead th:nth-child(3){
+  text-align: right;
+}
+
+.tableBody{
+  text-align: center;
+  font-family: var(--font-primary);
+}
+
+.tableBody tr td:nth-child(1){
+  text-align: left;
+}
+
+.tableBody tr td:nth-child(3){
+  text-align: right;
+}
+
+.tableRow td{
+  padding: 0.5rem 0;
+  border-bottom: 1px dotted rgb(165, 165, 165);
+}
+
+.total{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 1rem;
+  font-family: var(--font-primary);
+}

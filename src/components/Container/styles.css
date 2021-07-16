@@ -1,0 +1,17 @@
+.container{
+  width: 450px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+
+.container--h1{
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: var(--font-secondary);
+  padding-bottom: 1rem;
+  letter-spacing: 2px;
+}
